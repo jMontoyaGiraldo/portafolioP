@@ -1,0 +1,10 @@
+.formulariowtsp{
+    display: flex;
+    flex-direction: column;
+    background-color: #374151;
+    border-radius: 10px;
+
+}
+.formulariowtsp p label {
+    color: black;
+}

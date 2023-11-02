@@ -23,7 +23,7 @@ export default function Contact() {
       </div>
       <div className="flex flex-row">
         <div>
-          <div style={{ margin: "50px" }} >
+          <div style={{ marginLeft: "2rem" ,height:'30rem' }} >
             <div className={`bg-[#0b212d] w-full h-full rounded-2xl p-4 flex flex-col justify-between`}>
                 <img
                  style={{alignSelf:'center'}}
@@ -66,6 +66,7 @@ export default function Contact() {
               <button
                 type="button"
                 onClick={sendWhatsAppMessage}
+                style={{backgroundColor : '#0b212d'}}
                 className="text-white name py-4 font-medium "
               >
                 Send Message
@@ -107,7 +108,7 @@ export default function Contact() {
                 // }
               >
           
-                <img src={require('./gmailLogo.png')} style={{width : '40px'}} className="justify-center text-center items-center cursor-pointer hover:scale-105" />
+                <img src={require('./gmailLogo.png')} style={{width : '40px'}} className="justify-center text-center items-center cursor-pointer hover:scale-105" alt="gmailLogo" />
                 <p>Juanmaggm@gmail.com</p>
               </div>
             </div>

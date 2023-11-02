@@ -1,5 +1,5 @@
 import BarGraph from "./BarGraph";
-import DownloadIcon from "@mui/icons-material/Download";
+// import DownloadIcon from "@mui/icons-material/Download";
 
 export default function Resume() {
   return (
@@ -109,12 +109,14 @@ export default function Resume() {
 
         <div className="flex flex-col text-center" data-aos="slide-up">
           <div className="text-3xl font-bold py-3">My Skills</div>
-          <div className="ml-16 flex flex-col gap-8 mt-6">
+          <div className="ml-16 flex flex-col gap-8 mt-4 place-content-evenly">
             <BarGraph name={"JavaScript"} />
             <BarGraph name={"React"} />
             <BarGraph name={"HTML/CSS"}  />
             <BarGraph name={"SQL"}  />
             <BarGraph name={"Sequealize"}  />
+            <BarGraph name={"TypeScrip"}  />
+            <BarGraph name={"postreSQL"}  />
           </div>
 
           {/* <a

@@ -18,7 +18,6 @@ export default function work({ title, desc, tags, link, code, img }) {
               className="w-full h-full max-h-[200px] min-h-[200px] rounded-[10px] object-cover border-[1px] border-secondary"
             />
             <div className="absolute inset-0 flex justify-end m-3 ">
-             
               <div
                 onClick={() => window.open(code, "_blank")}
                 className="bg-slate-800 w-9 h-9 rounded-full border-[1px] border-secondary flex items-center justify-center cursor-pointer "
@@ -29,6 +28,16 @@ export default function work({ title, desc, tags, link, code, img }) {
                   className="w-4/5 h-4/5 object-contain"
                 />
               </div>
+              { link ?               <div
+                onClick={() => window.open(link, "_blank")}
+                className="bg-slate-800 w-9 h-9 rounded-full border-[1px] border-secondary flex items-center justify-center cursor-pointer "
+              >
+                <img
+                  src={require("../../images/gotosite.webp")}
+                  alt={"github"}
+                  className="w-4/5 h-4/5 object-contain"
+                />
+              </div> : null}
             </div>
           </div>
           <div className="mt-5">

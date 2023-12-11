@@ -63,6 +63,7 @@ export const projects = [
       },
     ],
     img: Heal,
-    code: "https://github.com/LeoCodeDev/henry-pf/tree/main"
+    code: "https://github.com/LeoCodeDev/henry-pf/tree/main",
+    link:"https://healtech.tech/"
   },
 ];

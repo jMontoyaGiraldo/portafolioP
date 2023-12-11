@@ -22,9 +22,9 @@ export default function Contact() {
         Contact
       </div>
       <div className="flex flex-row">
-        <div>
-          <div style={{ marginLeft: "2rem" ,height:'30rem' }} >
-            <div className={`bg-[#0b212d] w-full h-full rounded-2xl p-4 flex flex-col justify-between`}>
+      <div className="flex-auto w-80 h-100 flex flex-col justify-center text-center items-center gap-1">
+          <div data-aos={"slide-up"}  className="text-center bg-[#0b212d]  rounded-2xl max-w-[362px]  h-full bg-gradient-to-r from-green-700 to-pink-800 p-[1px]">
+            <div className={`bg-[#0b212d] rounded-2xl p-4 flex flex-col justify-between`}>
                 <img
                  style={{alignSelf:'center'}}
             src={imagen}
